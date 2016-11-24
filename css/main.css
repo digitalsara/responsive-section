@@ -16,3 +16,21 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+section .wrapper {
+  background-color: #e5c30a;
+  padding: 1.3rem;
+}
+
+.img-flex {
+  float: left;
+  width: 50%;
+}
+
+section h2 {
+  margin: 0;
+}
