@@ -37,9 +37,35 @@ section h2 {
 
 @media only screen and (min-width: 25em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   .img-flex {
     width: 45%;
     float: none;
+  }
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .img-flex {
+    width: 15%;
+  }
+
+  .img-flex.icon {
+    float: right;
+  }
+
+  .img-flex.letter {
+    float: left;
   }
 
 }
